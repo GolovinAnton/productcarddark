@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900');
+
+* {
+	box-sizing: border-box;
+	transition: all 0.25s ease;
+}
+
+body {
+	background-color: #c5c5c8;
+	background-image: url('../img/Layer_5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.container {
+	width: 1400px;
+	height: 750px;
+	background-color: #111a28;
+	margin: 0 auto;
+	box-shadow: 0px 0px 130px 0px rgba(0, 0, 0, 0.82);
+	border-radius: 10px;
+	margin-top: 90px;
+	position: relative;
+}
+
+.container__logo {
+	width: 130px;
+	height: 70px;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 40px;
+	left: 40px;	
+}
+
+.container__left {
+	position: absolute;
+	top: 220px;
+	left: 80px;
+}
+
+.container__left--image {
+	width: 660px;
+	height: 320px;
+	background-image: url('../img/Nike_SB_Stefan_Janoski_Max.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container__left--color {
+	margin-top: 130px;
+	text-align: center;
+	letter-spacing: 0.6em;
+
+}
+.container__left--color li {
+	display: inline-block;
+}
+.color1--active,
+.color2,
+.color3,
+.color4 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.color1 {
+	background-color: #1f273f;
+	/* border: 2px solid #7a7f87; */
+}
+.color2 {
+	background-color: #fff;
+}
+.color3 {
+	background-color: #ed3333;
+}
+.color4 {
+	background-color: #29e3ea;
+}
+.color1:hover,
+.color1:focus,
+.color1:active,
+.color1--active,
+.color2:hover,
+.color2:focus,
+.color2:active,
+.color3:hover,
+.color3:focus,
+.color3:active,
+.color4:hover,
+.color4:focus,
+.color4:active {
+	border: 2px solid #7a7f87;	
+}
+.container__right {
+	float: right;
+	margin-top: 100px;
+	text-align: left;
+	color: #e1e1e1;
+	font-weight: 100;
+	padding-right: 100px;
+	max-width: 450px;
+
+}
+.container__right--model-name {
+	font-weight: 300;
+	font-size: 42px;
+	line-height: 50px;
+}
+.container__right--model-dscpt {
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 50px;
+	
+
+}
+.container__right--rtg {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 40px;
+		
+}
+.container__right--rtg li {
+	display: inline-block;
+}
+.rating {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/star.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	/* color: #f7bf16; */
+}
+	
+.container__right--form {
+	color: #e1e1e1;
+	font-size: 28px;
+
+}
+
+.form__size,
+.form__qty {
+	size: 1;
+	width: 39%;
+	height: 60px;
+	color: #fff;
+	background-color: #111a28; 
+	text-decoration: none;
+	margin-top: 60px;
+	padding: 0 15px;
+	opacity: 0.5;
+	border-color: #fff;
+	background-image: url('../img/rectangle_2.png');
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: right;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+
+}
+
+.form__big-active input {
+	width: 300px;
+	height: 65px;
+	margin-top: 50px;
+	font-size: 28px;
+	text-align: center;
+	opacity: 0.2;
+	cursor: pointer;
+	border: 1px solid #fff;
+	color: #e1e1e1;
+	background-color: #4c525a;
+	border-style: solid;
+	position: absolute;
+	right: 125px;
+	bottom: 125px;
+}
+input:hover {
+	background-color: #fff;
+	color: yellow;
+	
+}
